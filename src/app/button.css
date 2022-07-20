@@ -1,0 +1,17 @@
+button{
+    background: #D9D9D9;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+button:active{
+    background: #28c7ec;
+}
+
+/*
+xanh: #4484CE ==> navigation
+aluminium: #D9D9D9
+light yellow: #F9CF00
+ograne: #F19F4D 
+light blue: #28c7ec
+*/

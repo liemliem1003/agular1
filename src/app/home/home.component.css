@@ -1,0 +1,11 @@
+textarea{
+    height: 180px;
+    width: 300px;
+    overflow-wrap: break-word;
+}
+.body{
+    text-align: center;
+}
+table{
+    margin: auto;
+}

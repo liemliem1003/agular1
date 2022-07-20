@@ -8,6 +8,9 @@ import { TutorComponent } from './tutor/tutor.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { Routes, RouterModule } from '@angular/router';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { ClassComponent } from './class/class.component';
+import { LoginComponent } from './login/login.component';
+import { SubjectComponent } from './subject/subject.component';
 
 
 
@@ -30,6 +33,18 @@ const routes : Routes =[
     component: TutorComponent
   },
   {
+    path:"class",
+    component: ClassComponent
+  },
+  {
+    path:"login",
+    component: LoginComponent
+  },
+  {
+    path:"subject",
+    component: SubjectComponent
+  },
+  {
     path: '**',
     component: PagenotfoundComponent
   }
@@ -42,7 +57,10 @@ const routes : Routes =[
     HomeComponent,
     TutorComponent,
     AboutusComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    ClassComponent,
+    LoginComponent,
+    SubjectComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+<nav>
+    <a routerLink="/home" routerLinkActive="selected">Home</a>
+    <a [routerLink]="['/class']" routerLinkActive="selected">Class</a>
+    <a [routerLink]="['/subject']" routerLinkActive="selected">Subject</a>
+    <a [routerLink]="['/about']" routerLinkActive="selected" class="dropdown">About us</a>
+    <div>
+        <input type="text">
+        <button><i class="bi bi-search"></i></button>
+    </div>
+    <a [routerLink]="['/login']" routerLinkActive="selected">Log in</a>
+</nav>
