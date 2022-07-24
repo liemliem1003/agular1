@@ -4,14 +4,10 @@ button{
     border: 0px;
     cursor: pointer;
 }
+button:hover{
+    color: white;
+}
 button:active{
     background: #28c7ec;
+    color: black;
 }
-
-/*
-xanh: #4484CE ==> navigation
-aluminium: #D9D9D9
-light yellow: #F9CF00
-ograne: #F19F4D 
-light blue: #28c7ec
-*/

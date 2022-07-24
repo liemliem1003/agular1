@@ -11,6 +11,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ClassComponent } from './class/class.component';
 import { LoginComponent } from './login/login.component';
 import { SubjectComponent } from './subject/subject.component';
+import { IssueComponent } from './issue/issue.component';
+import { IssueDetailComponent } from './issue-detail/issue-detail.component';
 
 
 
@@ -45,6 +47,10 @@ const routes : Routes =[
     component: SubjectComponent
   },
   {
+    path:"issue_detail",
+    component: IssueDetailComponent
+  },
+  {
     path: '**',
     component: PagenotfoundComponent
   }
@@ -60,7 +66,9 @@ const routes : Routes =[
     PagenotfoundComponent,
     ClassComponent,
     LoginComponent,
-    SubjectComponent
+    SubjectComponent,
+    IssueComponent,
+    IssueDetailComponent
   ],
   imports: [
     BrowserModule,

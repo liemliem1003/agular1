@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: tahoma;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+/*
+xanh: #4484CE ==> navigation
+aluminium: #D9D9D9
+light green: #b0f6e1
+light yellow: #F9CF00
+ograne: #F19F4D 
+light blue: #28c7ec
+*/
